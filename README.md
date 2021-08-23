@@ -26,8 +26,19 @@ The R-squared value of 0.7149 indicates that this model is approximately 71% acc
 
 ## Summary Statistics on Suspension Coils
 
-
+In this dataset the results were captured in three different produciton lots.  Per the manufacturer, the weight capacities of multiple suspension coils were tested to gauge the consistency of the manufacturing process.  The summary statistics are shown in Figure2 below.
 
 ### ![Figure2.PNG](./Resources/Figure2.PNG)
 
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+By summarizing the data, you can see that Lot 1 and Lot 2 are within design specification.  Lot 3 shows that the variance is outside of the 100PSI limit, showing 170.28.
+
+### ![Figure3.PNG](./Resources/Figure3.PNG)
+
 ## T-Tests on Suspension Coils
+
+### ![ttest.PNG](./Resources/ttest.PNG)
+### ![ttest_lot1.PNG](./Resources/ttest_lot1.PNG)
+### ![ttest_lot2.PNG](./Resources/ttest_lot2.PNG)
+### ![ttest_lot3.PNG](./Resources/ttest_lot3.PNG)
